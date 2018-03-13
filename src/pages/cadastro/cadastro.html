@@ -3,6 +3,14 @@
       <ion-title>
         Cadastro Game
       </ion-title>
+ 
+       <ion-buttons end>
+          <button ion-button icon-only  (click)="salvar(jogo)">
+              <ion-icon name="checkmark-circle-outline"  color="secondary"></ion-icon>
+            <ion-icon ios="ios-checkmark" md="md-checkmark"  color="secondary"></ion-icon>
+          </button>
+       </ion-buttons>
+
     </ion-navbar>
   </ion-header>
   
@@ -31,6 +39,10 @@
       </ion-item>
 
     </ion-list>
+
+
+
+
   
   </ion-content>
   

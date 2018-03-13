@@ -11,8 +11,13 @@ export class Cadastro {
     public jogo: Jogo;
 
     constructor() {
-        
+
         this.jogo = new Jogo();
+
+    }
+
+    salvar(jogoSalvar: Jogo) {
+        console.log(jogoSalvar);
 
     }
 
